@@ -1,0 +1,64 @@
+.header {
+    padding-top: 40px;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        &-menu {
+            margin-bottom: 0;
+            display: flex;
+            list-style: none;
+            li {
+                margin-right: 40px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__contacts {
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            li {
+                margin-right: 40px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+        &__getapp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #267df4;
+            width: 130px;
+            height: 42px;
+            border-radius: 15px;
+            color: white;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
+            img {
+                margin-right: 12px;
+                height: 20px;
+            }
+        }
+    }
+    &__logo {
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: black;
+        span {
+            font-weight: 900;
+        }
+        &:hover {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
