@@ -50,23 +50,9 @@
                 }
             }
         }
-        &__getapp {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: $main-color;
-            width: 130px;
-            height: 42px;
-            border-radius: 20px;
-            color: white;
-            &:hover {
-                color: white;
-                text-decoration: none;
-            }
-            img {
-                margin-right: 12px;
-                height: 20px;
-            }
+        &__getapp img {
+            margin-right: 12px;
+            height: 20px;
         }
     }
     &__logo {

@@ -1,0 +1,41 @@
+.protect {
+    padding-top: 120px;
+    position: relative;
+    &__phone {
+        width: 50%;
+        position: absolute;
+        left: -6%;
+        z-index: -1;
+    }
+    &__wrapper {
+        float: right;
+        width: 480px;
+    }
+    &__title {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+    &__descr {
+        margin-top: 65px;
+        font-size: 20px;
+        color: #8c8f94;
+    }
+    &__btns {
+        display: flex;
+        margin-top: 75px;
+    }
+    &__try {
+        width: 200px;
+        height: 43px;
+        margin-right: 20px;
+        &:after {
+            content: '\27A4';
+            margin-left: 40px;
+        }
+    }
+    &__learn {
+        width: 140px;
+        height: 43px;
+    }
+}
