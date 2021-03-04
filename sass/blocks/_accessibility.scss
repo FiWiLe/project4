@@ -1,0 +1,28 @@
+.accessibility {
+    min-height: 820px;
+    padding-top: 120px;
+    position: relative;
+    overflow: hidden;
+    &__map {
+        position: absolute;
+        right: -20%;
+        z-index: -1;
+    }
+    &__wrapper {
+        width: 480px;
+    }
+    &-partners {
+        margin-top: 60px;
+        span {
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        &__items {
+            margin-top: 25px;
+        }
+        &__item:first-of-type {
+            margin-right: 25px;
+        }
+    }
+}
