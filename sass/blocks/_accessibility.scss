@@ -1,6 +1,6 @@
 .accessibility {
     min-height: 820px;
-    padding-top: 120px;
+    padding: 120px 0;
     position: relative;
     overflow: hidden;
     &__map {
@@ -13,11 +13,6 @@
     }
     &-partners {
         margin-top: 60px;
-        span {
-            font-size: 12px;
-            font-weight: 900;
-            text-transform: uppercase;
-        }
         &__items {
             margin-top: 25px;
         }

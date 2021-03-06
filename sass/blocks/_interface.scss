@@ -1,0 +1,42 @@
+.interface {
+    position: relative;
+    padding: 140px 0 75px 0;
+    background-color: #f5f5f8;
+    min-height: 1150px;
+    &__title {
+        text-align: center;
+    }
+    hr {
+        margin-top: 40px;
+        width: 50px;
+        height: 2px;
+        background-color: $main-color;
+        border: none;
+    }
+    &__subtitle {
+        margin-top: 40px;
+        color: #8c8f94;
+        text-align: center;
+    }
+    &__phone {
+        height: 750px;
+        width: 355px;
+        position: absolute;
+        z-index: 1000;
+        left: calc(50% - 177px);
+        top: 325px;
+    }
+    &-carousel {
+        margin-top: 130px;
+        &__inner {
+            width: 990px;
+            margin: 0 auto;
+        }
+        &__item {
+            width: 320px;
+            height: 570px;
+        }
+        &__img {
+        }
+    }
+}
