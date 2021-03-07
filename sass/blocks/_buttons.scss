@@ -4,9 +4,10 @@
         justify-content: center;
         align-items: center;
         background-color: $main-color;
+        border: none;
         width: 130px;
         height: 42px;
-        border-radius: 20px;
+        border-radius: 25px;
         color: white;
         font-size: 16px;
         font-weight: 600;
@@ -28,5 +29,8 @@
         &:hover {
             box-shadow: 0 5px 15px #c8c8c8;
         }
+    }
+    &_green {
+        background-color: #6fc754;
     }
 }

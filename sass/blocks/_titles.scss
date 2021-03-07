@@ -12,4 +12,11 @@
     font-size: 12px;
     font-weight: 900;
     text-transform: uppercase;
+    &_grey {
+        color: $grey-color;
+    }
+    &_thin {
+        margin-top: 65px;
+        font-weight: 300;
+    }
 }
